@@ -14,8 +14,8 @@ public class SubstringTest {
         assertEquals(Substring.getDistinctSubstrings(dogs, 1).size(), 3);
         assertEquals(Substring.getDistinctSubstrings(dogs, 2).size(), 3);
         assertEquals(Substring.getDistinctSubstrings(dogs, 3).size(), 3);
-        assertEquals(Substring.getDistinctSubstrings(dogs, 4).size(), 3);
-        assertEquals(Substring.getDistinctSubstrings(dogs, 5).size(), 2);
-        assertEquals(Substring.getDistinctSubstrings(dogs, 6).size(), 1);
+        assertEquals(Substring.getDistinctSubstrings(dogs, 4).size(), 0);
+        assertEquals(Substring.getDistinctSubstrings(dogs, 5).size(), 0);
+        assertEquals(Substring.getDistinctSubstrings(dogs, 6).size(), 0);
     }
 }
